@@ -1,0 +1,297 @@
+.container {
+    width: 1216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inter, semibold;
+    margin: auto;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    height: 80px;   
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #00000025;
+
+}
+
+
+#header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 40px;
+    font-size: 18px;
+    color: #3A404E;
+}
+#header .menu {
+    font-size: 16px;
+    color: #667085;
+}
+#header .menu a {
+    text-decoration: none;
+    gap: 10px;
+    margin-right: 100px;
+    color: #667085;
+}
+
+#header .entrar {
+    color: #667085;
+    font-size: 16px;
+}
+
+#header .entrar button{
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 100px;
+}
+
+header .cadastrar button{
+    color: white;
+    border-radius: 5px;
+    background-color: #8E2424 ;
+    padding: 5px;
+}
+
+main #primeira .sobre{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#primeira h3 {
+    margin-top: 10px;
+    color: #8E2424;
+    font-size: 16px;
+}
+
+#primeira h2{
+    font-size: 38px;
+    color: #101828;
+    font-weight: 600;
+}
+
+#primeira h4 {
+    color: #667085;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+#segunda .container ul {
+    display: flex;
+    margin: 30px 0px;;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#segunda .container ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    width: 280px; 
+}
+
+#segunda ul li h2{
+    color: #8E2424;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#segunda ul li h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+#terceira .recrutamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+#terceira .atrativo h3 {
+        background-color: #8E24240D ; 
+        display: inline;
+        padding: 5px;
+        border-radius: 16px ;
+        color: #8E2424; 
+}
+
+
+#terceira .atrativo h2 {
+    color: #101828;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+#terceira .atrativo h4 {
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+
+#meio .container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#meio .container .design h4 {
+    display: flex;
+    margin-top: 64px;
+    font-size: 20px;
+    color: #101828;
+    font-weight: 500
+}
+
+#meio .container ul {
+    margin-top: 64px;
+    width: 768px; 
+    text-align: start; 
+}
+#meio .container ul li {
+    margin-bottom: 24px;
+    width: 768px;
+    border: 2px #EAECF080 double;
+    border-radius: 16px;
+}
+
+#meio .container ul h3 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 24px 24px 24px 24px;
+}
+
+#meio .container ul li h3 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#meio .container ul li p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #667085;
+    margin: 24px 24px 24px 24px;
+}
+
+#quarta .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #C3191909;
+    margin-top: 96px;
+    
+}
+
+#quarta h3 {
+    font-size: 14px;
+    color: #8E2424;
+    font-weight: bold;
+    margin-bottom: 32px;
+    margin-top: 64px;
+}
+
+#quarta h2 {
+    font-size: 36px;
+    font-weight: 500px;
+    color: #101828;
+    margin-bottom: 32px;
+}
+
+#quarta h4 {
+    color: #101828;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#quarta h5 {
+    font-size: 14px;
+    color: #667085;
+    margin-bottom: 64px;
+}
+
+footer {
+
+    background-color: #F9FAFB;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    background-color: #F9FAFB;
+    
+}
+
+footer h2 {
+    font-size: 36px;
+    color: #101828;
+    margin-top: 96px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+footer input {
+    border-radius: 8px;
+    color: white;
+    width: 320px;
+    height: 40px;
+    padding: 0px 20px;
+}
+
+footer button {
+    background-color: #8E2424;
+    color: white;
+    border-radius: 8px;
+    width: 116px;
+    height: 48px;
+    margin-left: 16px;
+}
+
+footer .logomarca {
+    color: #98A2B3;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 32px;
+    margin-bottom: 92px;
+}
+
+@media (max-width: 1024px) {
+
+#header {
+flex-direction: column;
+} 
+
+#terceira .atrativo {
+
+    
+}
+
+}
